@@ -1,0 +1,451 @@
+/******************HEADER SECTION*********************/
+@media screen and (max-width: 700px) {
+    .header__logo {
+        padding-left: 10vw;
+    }
+    .header__phone {
+        padding-right: 5vw;
+    }
+}
+@media screen and (max-width: 490px) {
+    .header__container {
+        justify-content: center;
+    }
+    .header__logo {
+        padding-left: 0;
+    }
+    .header__phone {
+        display: none;
+    }
+}
+@media screen and (max-width: 440px) {
+    .header__btn {
+        width: 35vw;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .header__main-heading h1 {
+        font-size: 40px;
+    }
+    .header__descr p:nth-child(1) {
+        font-size: 16px;
+    }
+    }
+/******************************************************************/
+
+/******************DESCRIPTION SECTION*********************/
+@media screen and (min-width: 976px) and (max-width: 1301px) {
+    .description__question-caption {
+        width: 15vw;
+    }
+}
+@media screen and (min-width: 684px) and (max-width: 976px) {
+    .description__question-caption {
+        width: 20vw;
+    }
+}
+@media screen and (max-width: 684px) {
+    .description__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .description__question-caption {
+        width: 50vw;
+        margin: 0 auto;
+    }
+    .description__text {
+        width: 70vw;
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 391px) and (max-width: 507px) {
+    .description__question-caption {
+        width: 35vw;
+    }
+}
+/******************************************************************/
+
+/******************REASONS SECTION*********************/
+@media screen and (max-width: 768px) {
+    .reasons__first-row, .reasons__second-row {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 30px 0;
+    }
+    .reasons__first-row div, .reasons__second-row div {
+        margin-top: 30px;
+        width: 100vw;
+    }
+}
+/******************************************************************/
+
+/******************SCHEDULE SECTION*********************/
+@media screen and (max-width: 977px) {
+    .schedule__first-row, .schedule__second-row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 0;
+    }
+    .schedule__first-row .square, .schedule__second-row .square {
+        margin-top: 30px;
+        width: 80vw;
+    }
+    .schedule__btn {
+        width: 40vw;
+    }
+}
+@media screen and (min-width: 1476px) {
+    .schedule__first-row .square, .schedule__second-row .square {
+        width: 20vw;
+    }
+}
+/******************************************************************/
+
+/******************AYURVEDA SECTION*********************/
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+    .ayurveda__heading {
+        padding-top: 40px;
+    }
+    .ayurveda__centre {
+        flex-direction: column;
+    }
+    .ayurveda__gallery {
+        justify-content: center;
+        margin: 70px 0 0 
+    }
+    .ayurveda__info {
+        text-align: center;
+        width: 80vw;
+        display: block;
+        margin: 50px auto 0;
+    }
+    .ayurveda .line {
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .ayurveda .line p {
+        text-align: center;
+        width: 90vw;
+        margin: 20px 0 0 0;
+    }
+    .ayurveda__description {
+        padding-top: 40px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    .ayurveda__gallery {
+        display: grid;
+        grid-gap: 10px;
+        grid-template: repeat(3, auto) / repeat(2, auto);
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 700px) {
+    .ayurveda__gallery {
+        grid-template: repeat(3, auto) / repeat(3, auto);
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+    .ayurveda__gallery {
+        grid-template: repeat(3, auto) / repeat(4, auto);
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+    .ayurveda__gallery {
+        grid-template: repeat(4, 140px) / repeat(3, auto);
+        margin: 70px 0 0 40px;
+    }
+    .ayurveda__info {
+        margin: 70px 0 0 100px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .ayurveda__columns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ayurveda__left-column, .ayurveda__right-column {
+        width: 80vw;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .ayurveda__columns {
+        justify-content: space-evenly;
+    }
+}
+/******************************************************************/
+
+/******************INSTRUCTORS SECTION*********************/
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .instructors__first {
+        margin: 50px auto 0;
+    }   
+    .instructors__first .instructors__descr p {
+        width: 150px;
+    }
+    .white-line {
+        display: none;
+    }
+    .instructors__achievements {
+        display: none;
+    }
+    .instructors__descr {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 30%;
+    }
+    .instructors__descr h2 {
+        font-size: 34px;
+    }
+    .instructors__descr p {
+        width: 45%;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 933px ) {
+    .instructors__first .instructors__descr {
+        padding: 0 0 30px 20px;
+    }
+    .instructors__second .instructors__descr {
+        padding: 0 0 50px 20px;
+    }
+    .instructors__first .instructors__descr p {
+        width: 75%;
+    }
+    .instructors__first .instructors__achievements p {
+        padding: 0 0 20px 50px;
+    }
+}
+/******************************************************************/
+
+/******************REVIEWS SECTION*********************/
+@media screen and (max-width: 767px) {
+    .reviews__user {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews__user-text {
+        padding: 0;
+    }
+    .reviews__user-text h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .reviews__user-text p {
+        text-align: center;
+        width: 60vw;
+    }
+    .user__link {
+        text-align: center;
+    }
+}
+/******************************************************************/
+
+/******************ADVANTAGES SECTION*********************/
+
+@media screen and (max-width: 767px) {
+    .advantages__first-line, .advantages__second-line {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 780px;
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 550px) {
+    .advantages__first-line {
+        height: 950px;
+    }
+    .advantages__second-line {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 950px;
+        margin-top: 0px;
+    }
+    .advantages .item {
+        flex: 0;
+    }
+}
+/******************************************************************/
+
+/******************PROCESS SECTION*********************/
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+    .process__steps {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 1200px;
+    }
+    .process__steps p {
+        margin-top: 10px;
+        width: 80vw;
+    }
+    .process__link {
+        display: block;
+        margin-top: 10px;
+    }
+    .process__steps img {
+        transform: rotate(90deg);
+    }
+}
+/******************************************************************/
+
+/******************PRICES SECTION*********************/
+@media screen and (max-width: 767px) {
+    .prices__list, .prices .rectangle {
+        width: 100%;
+    }
+    .prices__first, .prices__second, .prices__third {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        color: #000;
+        border-bottom: 1px solid grey;
+    }
+    .prices__third {
+        border-bottom: none;
+    }
+    .prices__first span, .prices__second span, .prices__third span {
+        text-align: center;
+    }
+    .container {
+        justify-content: stretch;
+    }
+    .prices .rectangle__container {
+        flex-direction: column;
+    }
+    .prices .rectangle__container span {
+        display: block;
+        text-align: center;
+        width: 90%;
+    }
+    .prices__btn {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    .prices .price {
+        color: #000;
+        margin: 20px 0 0 0;
+    }
+    .prices__warning {
+        width: 90vw;
+    }
+}
+/******************************************************************/
+
+/******************SAFETY SECTION*********************/
+@media screen and (max-width: 767px) {
+    .safety__message {
+        width: 90vw;
+    }
+    .safety__documents {
+        flex-direction: column;
+        margin-top: 30px;
+        height: 1000px;
+    }
+}
+/******************************************************************/
+
+/******************CONTACTS SECTION*********************/
+@media screen and (min-width: 320px) and (max-width: 599px) {
+    .contacts__heading {
+        text-align: center;
+        padding: 50px 0 0 0;
+    }
+    .contacts__container {
+        padding: 50px 0 0 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts__phone {
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+    .contacts__offices {
+        padding: 50px 0 0 0;
+    }
+    .contacts__offices p {
+        text-align: center;
+    }
+    .contacts__maps {
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+        justify-content: space-around;
+        margin-top: 5px;
+    }
+    .contacts__maps .second-map, .contacts__maps .third-map {
+        margin-left: 0;
+    }
+    .contacts__maps .second-map {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .contacts__heading {
+        padding: 50px 0 0 0;
+        text-align: center;
+    }
+    .contacts__container {
+        padding: 50px 0 0 0;
+        justify-content: space-around;
+    }
+    .contacts__offices {
+        padding: 50px 0 0 0;
+    }
+    .contacts__offices p {
+        text-align: center;
+    }
+    .contacts__maps {
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+        justify-content: space-around;
+        margin-top: 5px;
+    }
+    .contacts__maps .second-map, .contacts__maps .third-map {
+        margin-left: 0;
+    }
+    .contacts__maps .second-map {
+        text-align: center;
+    }
+}
+/******************************************************************/
+
+/******************FOOTER SECTION*********************/
+@media screen and (min-width: 320px) and (max-width: 819px) {
+    .footer__container {
+        height: 60vh;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .footer__logo {
+        margin-left: 0;
+    }
+    .footer__info {
+        margin-right: 0;
+        text-align: center;
+    }
+    .footer__document {
+        width: 90vw;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 820px) and (max-width: 1024px) {
+    .footer__container {
+        justify-content: space-around;
+    }
+    .footer__logo, .footer__info {
+        margin: 0;
+    }
+}
+/******************************************************************/
